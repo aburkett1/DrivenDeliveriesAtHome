@@ -1,5 +1,5 @@
 {
-  "name": "mernpractice",
+  "name": "drivendeliveries",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,7 +12,7 @@
   "scripts": {
     "start": "node server/server.js",
     "build": "cross-env NODE_ENV=production webpack",
-    "dev": "concurrently \"cross-env NODE_ENV=development webpack-dev-server --open\" \"cross-env nodemon server/server.js || true\"",
+    "dev": "nodemon server/server.js",
     "test": "test"
   },
   "repository": {
