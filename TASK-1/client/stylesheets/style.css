@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+}
+
+.board {
+    display: flex;
+    flex-direction: column;
+}
+
+.boardRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.black {
+    /* width: 50px;
+    height: 50px; */
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+}
+
+.white {
+    /* width: 50px;
+    height: 50px; */
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+}
